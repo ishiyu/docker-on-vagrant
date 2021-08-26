@@ -1,0 +1,14 @@
+sync:
+  app:
+    mode: "two-way-resolved"
+    alpha: "/Users/ishiyu/Development/vagrant/share"
+    beta: "ingage-ishiyu:/home/vagrant/share"
+    ignore:
+      vcs: true
+      paths:
+        - "/**/node_modules"
+        - "/**/log"
+        - "/**/tmp"
+        - "/**/vendor"
+        - "/**/coverage"
+        - "/**/frontend/node_modules"
