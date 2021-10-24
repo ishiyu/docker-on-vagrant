@@ -19,7 +19,7 @@ brew install virtualbox --cask
 
 ```sh
 vagrant box add ubuntu/xenial64
-vagrant plugin install vagrant-disksize vagrant-hostsupdater vagrant-mutagen vagrant-docker-compose
+vagrant plugin install vagrant-disksize vagrant-hostsupdater vagrant-mutagen vagrant-docker-compose vagrant-vbguest
 ```
 
 ## vagrant の起動
